@@ -1,0 +1,15 @@
+[any_relevant_bot_name1]
+client_id=client_id_in_your_source_account_app
+client_secret=client_secret_in_your_source_account_app
+password=password_of_your_source_account
+username=username_of_your_source_account
+bot_version=0.1
+user_agent=script:SubTransfer:v%(bot_version)s (by u/%(username)s)
+
+[any_relevant_bot_name2]
+client_id=client_id_in_your_dest_account_app
+client_secret=client_secret_in_your_dest_account_app
+password=password_of_your_dest_account
+username=username_of_your_dest_account
+bot_version=0.1
+user_agent=script:SubTransfer:v%(bot_version)s (by u/%(username)s)
